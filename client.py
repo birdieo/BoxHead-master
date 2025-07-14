@@ -168,7 +168,7 @@ class GameClient:
         return (cx, cy)
 
     def draw_minimap(self, screen, players, enemies, walls, world_view_size=2000):
-        minimap_size = 200
+        minimap_size = 220  # było 200, zwiększone o 10%
         margin = 10
         minimap_surface = pygame.Surface((minimap_size, minimap_size), pygame.SRCALPHA)
         minimap_surface.fill((30, 30, 30, 255))  # solid dark background
