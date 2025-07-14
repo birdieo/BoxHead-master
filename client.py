@@ -5,7 +5,7 @@ import math
 from common.game_objects import Player, Enemy, Bullet, Wall, LootBox, Mine
 from common.network import NetworkProtocol, GameState
 
-SCREEN_WIDTH = 800
+SCREEN_WIDTH = 800 
 SCREEN_HEIGHT = 600
 
 class GameClient:
